@@ -29,7 +29,7 @@ class Application(Frame):
         Form(self._root).build()
 
     def _setup_window(self) -> None:
-        self._root.title("Cloud Words Generator")
+        self._root.title("Words Cloud Generator")
         self._root.resizable(False, False)
 
 class FieldUtils:
